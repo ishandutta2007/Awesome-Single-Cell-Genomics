@@ -62,95 +62,95 @@ A comprehensive comparison of leading enterprise and commercial SaaS platforms f
 
 A curated catalog of open-source frameworks, algorithm toolkits, and foundation models for single-cell computational biology. Sorted in **descending order by GitHub stargazers**.
 
-1. **[Seurat](https://github.com/satijalab/seurat)** [![GitHub stars](https://img.shields.io/github/stars/satijalab/seurat?style=social&label=Stars&color=white)](https://github.com/satijalab/seurat/stargazers)  
+1. **[Seurat](https://github.com/satijalab/seurat)** [![GitHub_Stars](https://img.shields.io/github/stars/satijalab/seurat?style=social&label=Stars&color=white)](https://github.com/satijalab/seurat/stargazers)  
    *The foundational R toolkit for single-cell genomics.*  
    Features multi-assay layers, bridge integration for cross-modality alignment (scRNA-seq + scATAC-seq), spatial transcriptomic niche analysis, and SCTransform variance stabilization. The global standard for R-based single-cell bioinformatics.
 
-2. **[Scanpy](https://github.com/scverse/scanpy)** [![GitHub stars](https://img.shields.io/github/stars/scverse/scanpy?style=social&label=Stars&color=white)](https://github.com/scverse/scanpy/stargazers)  
+2. **[Scanpy](https://github.com/scverse/scanpy)** [![GitHub_Stars](https://img.shields.io/github/stars/scverse/scanpy?style=social&label=Stars&color=white)](https://github.com/scverse/scanpy/stargazers)  
    *The primary Python toolkit for scalable single-cell data analysis.*  
    Built on AnnData, Scanpy powers preprocessing, highly variable gene selection, PCA, neighborhood graph construction, UMAP/t-SNE projection, Leiden clustering, and differential expression across millions of cells.
 
-3. **[scvi-tools](https://github.com/scverse/scvi-tools)** [![GitHub stars](https://img.shields.io/github/stars/scverse/scvi-tools?style=social&label=Stars&color=white)](https://github.com/scverse/scvi-tools/stargazers)  
+3. **[scvi-tools](https://github.com/scverse/scvi-tools)** [![GitHub_Stars](https://img.shields.io/github/stars/scverse/scvi-tools?style=social&label=Stars&color=white)](https://github.com/scverse/scvi-tools/stargazers)  
    *Deep probabilistic generative modeling for single-cell omics.*  
    Implements variational autoencoders (VAEs) for batch correction (scVI), zero-shot cell-type annotation (scANVI), multi-modal integration (totalVI for CITE-seq), and spatial deconvolution (DestVI).
 
-4. **[scGPT](https://github.com/bowang-lab/scGPT)** [![GitHub stars](https://img.shields.io/github/stars/bowang-lab/scGPT?style=social&label=Stars&color=white)](https://github.com/bowang-lab/scGPT/stargazers)  
+4. **[scGPT](https://github.com/bowang-lab/scGPT)** [![GitHub_Stars](https://img.shields.io/github/stars/bowang-lab/scGPT?style=social&label=Stars&color=white)](https://github.com/bowang-lab/scGPT/stargazers)  
    *Generative pretrained foundation model for single-cell biology.*  
    Trained on 33+ million single cells across diverse human tissues. Enables transfer learning, zero-shot cell type classification, perturbation response prediction, and gene network representation learning.
 
-5. **[CellProfiler](https://github.com/CellProfiler/CellProfiler)** [![GitHub stars](https://img.shields.io/github/stars/CellProfiler/CellProfiler?style=social&label=Stars&color=white)](https://github.com/CellProfiler/CellProfiler/stargazers)  
+5. **[CellProfiler](https://github.com/CellProfiler/CellProfiler)** [![GitHub_Stars](https://img.shields.io/github/stars/CellProfiler/CellProfiler?style=social&label=Stars&color=white)](https://github.com/CellProfiler/CellProfiler/stargazers)  
    *Automated image analysis software for single-cell phenotypic profiling.*  
    Enables high-throughput segmentation, quantitative morphological measurements, and spatial feature extraction from fluorescence microscopy and cell imaging screens.
 
-6. **[AnnData](https://github.com/scverse/anndata)** [![GitHub stars](https://img.shields.io/github/stars/scverse/anndata?style=social&label=Stars&color=white)](https://github.com/scverse/anndata/stargazers)  
+6. **[AnnData](https://github.com/scverse/anndata)** [![GitHub_Stars](https://img.shields.io/github/stars/scverse/anndata?style=social&label=Stars&color=white)](https://github.com/scverse/anndata/stargazers)  
    *The standard Python annotated data matrix structure for single-cell data.*  
    Stores gene expression matrices (`X`), cell metadata (`obs`), gene features (`var`), unstructured annotations (`uns`), and multi-dimensional embeddings (`obsm`) with fast HDF5/Zarr backing.
 
-7. **[inferCNV](https://github.com/broadinstitute/infercnv)** [![GitHub stars](https://img.shields.io/github/stars/broadinstitute/infercnv?style=social&label=Stars&color=white)](https://github.com/broadinstitute/infercnv/stargazers)  
+7. **[inferCNV](https://github.com/broadinstitute/infercnv)** [![GitHub_Stars](https://img.shields.io/github/stars/broadinstitute/infercnv?style=social&label=Stars&color=white)](https://github.com/broadinstitute/infercnv/stargazers)  
    *Inference of copy number variations from single-cell RNA-seq data.*  
    Developed by the Broad Institute to identify somatic large-scale chromosomal copy number alterations (amplifications and deletions) in tumor single-cell profiling.
 
-8. **[Harmony](https://github.com/immunogenomics/harmony)** [![GitHub stars](https://img.shields.io/github/stars/immunogenomics/harmony?style=social&label=Stars&color=white)](https://github.com/immunogenomics/harmony/stargazers)  
+8. **[Harmony](https://github.com/immunogenomics/harmony)** [![GitHub_Stars](https://img.shields.io/github/stars/immunogenomics/harmony?style=social&label=Stars&color=white)](https://github.com/immunogenomics/harmony/stargazers)  
    *Fast, sensitive, and scalable batch effect integration for single-cell transcriptomics.*  
    Iteratively projects cells into low-dimensional space and applies soft k-means clustering to correct technical confounders while retaining genuine biological variation.
 
-9. **[pySCENIC](https://github.com/aertslab/pySCENIC)** [![GitHub stars](https://img.shields.io/github/stars/aertslab/pySCENIC?style=social&label=Stars&color=white)](https://github.com/aertslab/pySCENIC/stargazers)  
+9. **[pySCENIC](https://github.com/aertslab/pySCENIC)** [![GitHub_Stars](https://img.shields.io/github/stars/aertslab/pySCENIC?style=social&label=Stars&color=white)](https://github.com/aertslab/pySCENIC/stargazers)  
    *Single-cell regulatory network inference and cell type regulon activity mapping.*  
    Discovers gene regulatory networks (GRNs) using co-expression analysis (GRNBoost2), motif enrichment (cisTarget), and regulon scoring (AUCell) in Python.
 
-10. **[Squidpy](https://github.com/scverse/squidpy)** [![GitHub stars](https://img.shields.io/github/stars/scverse/squidpy?style=social&label=Stars&color=white)](https://github.com/scverse/squidpy/stargazers)  
+10. **[Squidpy](https://github.com/scverse/squidpy)** [![GitHub_Stars](https://img.shields.io/github/stars/scverse/squidpy?style=social&label=Stars&color=white)](https://github.com/scverse/squidpy/stargazers)  
     *Spatial single-cell transcriptomics and tissue architecture analysis.*  
     Integrates spatial molecular coordinates with image processing, spatial neighborhood graphs, co-occurrence scores, ligand-receptor interactions, and spatial clustering in the scverse stack.
 
-11. **[DoubletFinder](https://github.com/chris-mcginnis-ucsf/DoubletFinder)** [![GitHub stars](https://img.shields.io/github/stars/chris-mcginnis-ucsf/DoubletFinder?style=social&label=Stars&color=white)](https://github.com/chris-mcginnis-ucsf/DoubletFinder/stargazers)  
+11. **[DoubletFinder](https://github.com/chris-mcginnis-ucsf/DoubletFinder)** [![GitHub_Stars](https://img.shields.io/github/stars/chris-mcginnis-ucsf/DoubletFinder?style=social&label=Stars&color=white)](https://github.com/chris-mcginnis-ucsf/DoubletFinder/stargazers)  
     *Identification of cell doublets in single-cell RNA sequencing.*  
     Simulates artificial heterotypic doublets from existing single-cell profiles and calculates a pANN score to flag and filter multiplet droplets in Seurat pipelines.
 
-12. **[scVelo](https://github.com/theislab/scvelo)** [![GitHub stars](https://img.shields.io/github/stars/theislab/scvelo?style=social&label=Stars&color=white)](https://github.com/theislab/scvelo/stargazers)  
+12. **[scVelo](https://github.com/theislab/scvelo)** [![GitHub_Stars](https://img.shields.io/github/stars/theislab/scvelo?style=social&label=Stars&color=white)](https://github.com/theislab/scvelo/stargazers)  
     *RNA velocity generalized across dynamic single-cell transcription states.*  
     Solves the full transcriptional kinetic rate equations (spliced vs. unspliced mRNA) using a likelihood-based dynamical model to recover transient cellular dynamics and directional cell fates.
 
-13. **[CellOracle](https://github.com/morris-lab/CellOracle)** [![GitHub stars](https://img.shields.io/github/stars/morris-lab/CellOracle?style=social&label=Stars&color=white)](https://github.com/morris-lab/CellOracle/stargazers)  
+13. **[CellOracle](https://github.com/morris-lab/CellOracle)** [![GitHub_Stars](https://img.shields.io/github/stars/morris-lab/CellOracle?style=social&label=Stars&color=white)](https://github.com/morris-lab/CellOracle/stargazers)  
     *In silico gene perturbation analysis and gene regulatory network inference.*  
     Integrates single-cell transcriptomics with scATAC-seq chromatin accessibility to simulate the downstream phenotypic effects of transcription factor knockouts and overexpression.
 
-14. **[Monocle 3](https://github.com/cole-trapnell-lab/monocle3)** [![GitHub stars](https://img.shields.io/github/stars/cole-trapnell-lab/monocle3?style=social&label=Stars&color=white)](https://github.com/cole-trapnell-lab/monocle3/stargazers)  
+14. **[Monocle 3](https://github.com/cole-trapnell-lab/monocle3)** [![GitHub_Stars](https://img.shields.io/github/stars/cole-trapnell-lab/monocle3?style=social&label=Stars&color=white)](https://github.com/cole-trapnell-lab/monocle3/stargazers)  
     *Single-cell lineage tracing, pseudotime progression, and differential expression.*  
     Uses reversed graph embedding and UMAP manifolds to reconstruct branching trajectories, track differentiation cascades, and detect trajectory-dependent genes.
 
-15. **[CellRank](https://github.com/theislab/cellrank)** [![GitHub stars](https://img.shields.io/github/stars/theislab/cellrank?style=social&label=Stars&color=white)](https://github.com/theislab/cellrank/stargazers)  
+15. **[CellRank](https://github.com/theislab/cellrank)** [![GitHub_Stars](https://img.shields.io/github/stars/theislab/cellrank?style=social&label=Stars&color=white)](https://github.com/theislab/cellrank/stargazers)  
     *Fate mapping and lineage decision dynamics in cellular state spaces.*  
     Combines RNA velocity vectors, developmental pseudotime, and experimental timecourses with Markov chains to model fate probabilities and lineage driver genes.
 
-16. **[nf-core/scrnaseq](https://github.com/nf-core/scrnaseq)** [![GitHub stars](https://img.shields.io/github/stars/nf-core/scrnaseq?style=social&label=Stars&color=white)](https://github.com/nf-core/scrnaseq/stargazers)  
+16. **[nf-core/scrnaseq](https://github.com/nf-core/scrnaseq)** [![GitHub_Stars](https://img.shields.io/github/stars/nf-core/scrnaseq?style=social&label=Stars&color=white)](https://github.com/nf-core/scrnaseq/stargazers)  
     *Production-grade Nextflow pipeline for scRNA-seq processing.*  
     Automates end-to-end processing from raw FASTQ to count matrices using Cell Ranger, STARsolo, Alevin-fry, or Kallisto/Bustools with integrated MultiQC reporting.
 
-17. **[Palantir](https://github.com/dpeerlab/Palantir)** [![GitHub stars](https://img.shields.io/github/stars/dpeerlab/Palantir?style=social&label=Stars&color=white)](https://github.com/dpeerlab/Palantir/stargazers)  
+17. **[Palantir](https://github.com/dpeerlab/Palantir)** [![GitHub_Stars](https://img.shields.io/github/stars/dpeerlab/Palantir?style=social&label=Stars&color=white)](https://github.com/dpeerlab/Palantir/stargazers)  
     *Pseudotime alignment and differentiation fate probability modeling.*  
     Models continuous cell differentiation as a Markov process over diffusion maps, computing differentiation potential and branch probabilities towards terminal states.
 
-18. **[Muon](https://github.com/scverse/muon)** [![GitHub stars](https://img.shields.io/github/stars/scverse/muon?style=social&label=Stars&color=white)](https://github.com/scverse/muon/stargazers)  
+18. **[Muon](https://github.com/scverse/muon)** [![GitHub_Stars](https://img.shields.io/github/stars/scverse/muon?style=social&label=Stars&color=white)](https://github.com/scverse/muon/stargazers)  
     *Multimodal omics analysis framework powered by MuData.*  
     Extends AnnData to handle coupled multimodal assays including CITE-seq (RNA + protein), 10x Multiome (RNA + ATAC), and spatial multi-omics in a unified data structure.
 
-19. **[Dyno / Dynverse](https://github.com/dynverse/dyno)** [![GitHub stars](https://img.shields.io/github/stars/dynverse/dyno?style=social&label=Stars&color=white)](https://github.com/dynverse/dyno/stargazers)  
+19. **[Dyno / Dynverse](https://github.com/dynverse/dyno)** [![GitHub_Stars](https://img.shields.io/github/stars/dynverse/dyno?style=social&label=Stars&color=white)](https://github.com/dynverse/dyno/stargazers)  
     *Unified platform for single-cell trajectory inference evaluation.*  
     Provides standardized wrappers for over 50 trajectory inference methods, automated benchmark comparisons, and publication-ready trajectory visualizations.
 
-20. **[BBKNN](https://github.com/Teichlab/bbknn)** [![GitHub stars](https://img.shields.io/github/stars/Teichlab/bbknn?style=social&label=Stars&color=white)](https://github.com/Teichlab/bbknn/stargazers)  
+20. **[BBKNN](https://github.com/Teichlab/bbknn)** [![GitHub_Stars](https://img.shields.io/github/stars/Teichlab/bbknn?style=social&label=Stars&color=white)](https://github.com/Teichlab/bbknn/stargazers)  
     *Fast batch-balanced k-nearest neighbors for single-cell graphs.*  
     Constructs neighbor graphs with balanced representation across technical batches, executing in seconds directly on high-dimensional PCA space within Scanpy.
 
-21. **[velocyto](https://github.com/velocyto-team/velocyto.py)** [![GitHub stars](https://img.shields.io/github/stars/velocyto-team/velocyto.py?style=social&label=Stars&color=white)](https://github.com/velocyto-team/velocyto.py/stargazers)  
+21. **[velocyto](https://github.com/velocyto-team/velocyto.py)** [![GitHub_Stars](https://img.shields.io/github/stars/velocyto-team/velocyto.py?style=social&label=Stars&color=white)](https://github.com/velocyto-team/velocyto.py/stargazers)  
     *Estimation of RNA velocity in single cells from spliced and unspliced reads.*  
     The original framework that introduced RNA velocity by distinguishing newly transcribed precursor mRNAs from mature processed transcripts in droplet sequencing.
 
-22. **[Azimuth](https://github.com/satijalab/azimuth)** [![GitHub stars](https://img.shields.io/github/stars/satijalab/azimuth?style=social&label=Stars&color=white)](https://github.com/satijalab/azimuth/stargazers)  
+22. **[Azimuth](https://github.com/satijalab/azimuth)** [![GitHub_Stars](https://img.shields.io/github/stars/satijalab/azimuth?style=social&label=Stars&color=white)](https://github.com/satijalab/azimuth/stargazers)  
     *Reference-based automated cell-type annotation and projection.*  
     Leverages curated Human BioMolecular Atlas Program (HuBMAP) references to map query scRNA-seq datasets into reference UMAP space and predict cell types without manual re-clustering.
 
-23. **[Compass](https://github.com/YosefLab/Compass)** [![GitHub stars](https://img.shields.io/github/stars/YosefLab/Compass?style=social&label=Stars&color=white)](https://github.com/YosefLab/Compass/stargazers)  
+23. **[Compass](https://github.com/YosefLab/Compass)** [![GitHub_Stars](https://img.shields.io/github/stars/YosefLab/Compass?style=social&label=Stars&color=white)](https://github.com/YosefLab/Compass/stargazers)  
     *In silico single-cell metabolic flux balance analysis.*  
     Characterizes cellular metabolic states and metabolic heterogeneity from single-cell transcriptomes by integrating flux balance constraints with biochemical reaction databases.
 
@@ -221,7 +221,7 @@ Contributions from the computational biology and bioinformatics community are wa
 
 1. 🍴 **Fork** this repository.
 2. 🌿 **Create** a descriptive branch (`git checkout -b feat/add-awesome-tool`).
-3. 📝 **Add** your tool or update entries in `README.md` maintaining table formatting, specific starting prices, specific free tier limits, and GitHub social star badges.
+3. 📝 **Add** your tool or update entries in `README.md` maintaining table formatting, specific starting prices, specific free tier limits, and GitHub social Stars_Badges.
 4. 🧪 **Verify** all markdown links and badge URLs are valid.
 5. 🚀 **Submit** a clean Pull Request with a summary of changes.
 
