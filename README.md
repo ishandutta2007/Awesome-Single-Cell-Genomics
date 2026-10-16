@@ -1,6 +1,6 @@
 # Awesome-Single-Cell-Genomics
 
-# Top Single-Cell Genomics Tools Ecosystem
+## Top Single-Cell Genomics Tools Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on scRNA-seq Analysis, Multi-Omics Integration & Cell-Type Annotation*  
